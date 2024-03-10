@@ -4,6 +4,8 @@ import {useSelector, useDispatch} from 'react-redux';
 import {selectBooks, eraseBook, toggleRead} from '../store/booksSlice.js';
 import {eraseBookNotes} from '../store/notesSlice.js';
 
+import {setUser} from '../store/usersSlice.js';
+
 function SingleBookPage() {
   
   const dispatch = useDispatch();
